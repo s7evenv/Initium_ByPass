@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+html {
+    font-family: "Arial";
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-image: url('./black.png');
+    background-repeat: no-repeat;
+    background-position-x: 7px;
+    background-position-y: center;
+    background-size: 25px;
+    display: flex;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: dark;
+    color: rgb(27, 27, 27);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 10px
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid white;
+    color: white;
+}
+button:active{
+    background-color: grey;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: "Arial";
+    font-size: 14px;
+}
+.OUTPUT {
+    margin-bottom: 20px;
+}
+
+.title_screen {
+    font-size: 2.0rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    color: white;
+    font-family: "Arial";
+    padding: 3px;
+}
+
+/* Style for the checkbox */
+.checkbox-custom {
+    appearance: none; /* Remove default styles */
+    width: 20px; /* Set width of the custom checkbox */
+    height: 20px; /* Set height of the custom checkbox */
+    border: 1px solid rgb(109, 219, 201); /* Border color */
+    border-radius: 4px; /* Border radius to make it round */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Show pointer cursor on hover */
+    vertical-align: middle; /* Align vertically */
+    margin-right: 5px; /* Add some spacing */
+  }
+  
+  /* Style for the checked state of the checkbox */
+  .checkbox-custom:checked {
+    background-color: rgb(109, 219, 201); /* Set background color when checked */
+    border-color: rgb(109, 219, 201); /* Set border color when checked */
+  }
